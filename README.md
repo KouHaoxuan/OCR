@@ -1,2 +1,2 @@
 # OCR
-Assignment1 OCR 
+Assignment1 (Base on PaddleOCR) 
