@@ -18,3 +18,5 @@ In Multi-language scenarios, optimizing the recognition effect of 80+ languages,
 
 1.3 Introduction of this Assignment:
 In this assignment, the program I developed is based on PaddleOCR. It can automatically preprocess the image we input, extract text from preprocessed image and store the text content in a local txt file. This program also contains some result visualization functionalities to display how the detection process works.
+
+The ocr.py contains functionalities of preprocessing image, extracting text from single image and storing the extracted text to a local txt file. The pdf_OCR.py allow users to extract text from pdf files. Both of them have a good performance.
