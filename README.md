@@ -1,6 +1,6 @@
 # OCR Assignment 1 (Based on PaddleOCR)
 ## 1. Introductions
-###1.1 Introduction to OCR
+### 1.1 Introduction to OCR
 OCR, or Optical Character Recognition, is a technology capable of converting textual information in image files into electronic text. The basic principle involves scanning printed characters on paper using electronic devices such as scanners or digital cameras, capturing images of the characters through optical technology, and converting these images into computer-readable text information through a series of complex algorithms. This process typically includes steps such as image preprocessing, text detection, feature extraction, text recognition, and post-processing.
 
 ### 1.2 Introduction to PaddleOCR
@@ -16,6 +16,11 @@ The program developed in this assignment is based on PaddleOCR. It automatically
 
 ocr.py: Contains functionalities for preprocessing images, extracting text from a single image, and storing the extracted text in a local txt file.
 pdf_OCR.py: Allows users to extract text from PDF files.
-Both scripts perform exceptionally well.
 
-![Text Recognition Result of Single Image](test.jpg)
+## Text Recognition Result of a Single Image
+![Text Recognition Result of a Single Image](test.jpg)
+
+## Text Recognition Result of a PDF File
+![Text Recognition Result of a PDF File](result_page_1.jpg)
+
+Both scripts perform exceptionally well.
