@@ -8,19 +8,20 @@ For this assignment, I chose PaddleOCR, developed by Baidu, which performs excep
 
 PP-OCR, a practical and ultra-lightweight OCR system developed by PaddleOCR, balances accuracy and speed through advanced algorithms, model thinning, and deep optimization to meet industrial needs. The system consists of text detection and text recognition stages, using the DB algorithm for text detection and CRNN for text recognition. A text direction classifier is added between detection and recognition modules to handle text in different directions. In this program, I used the PP-OCRv3 module, which has seen upgrades in 9 aspects compared to PP-OCRv2, further enhancing model performance:
 
-#### Chinese Scenes: Improved by over 5% compared to PP-OCRv2.
-#### English & Digital Scenes: Improved by 11% compared to PP-OCRv2.
-#### Multi-language Scenarios: Optimized recognition effect for 80+ languages, improving average accuracy by over 5%.
+**Chinese Scenes:** Improved by over 5% compared to PP-OCRv2.
+**English & Digital Scenes:** Improved by 11% compared to PP-OCRv2.
+**Multi-language Scenarios:** Optimized recognition effect for 80+ languages, improving average accuracy by over 5%.
+
 ### 1.3 Introduction to This Assignment
 The program developed in this assignment is based on PaddleOCR. It automatically preprocesses input images, extracts text from the preprocessed images, and stores the text content in a local txt file. The program also includes visualization functionalities to display the detection process.
 
-ocr.py: Contains functionalities for preprocessing images, extracting text from a single image, and storing the extracted text in a local txt file.
-pdf_OCR.py: Allows users to extract text from PDF files.
+**ocr.py**: Contains functionalities for preprocessing images, extracting text from a single image, and storing the extracted text in a local txt file.
+**pdf_OCR.py**: Allows users to extract text from PDF files.
 
-### Text Recognition Result of a Single Image
+**Text Recognition Result of a Single Image**
 ![Text Recognition Result of a Single Image](test.jpg)
 
-### Text Recognition Result of a PDF File
+**Text Recognition Result of a PDF File**
 ![Text Recognition Result of a PDF File](result_page_1.jpg)
 
 Both scripts perform exceptionally well.
