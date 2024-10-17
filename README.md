@@ -17,3 +17,5 @@ The program developed in this assignment is based on PaddleOCR. It automatically
 ocr.py: Contains functionalities for preprocessing images, extracting text from a single image, and storing the extracted text in a local txt file.
 pdf_OCR.py: Allows users to extract text from PDF files.
 Both scripts perform exceptionally well.
+
+![Text Recognition Result of Single Image](片地址)
