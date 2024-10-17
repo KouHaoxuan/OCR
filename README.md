@@ -18,10 +18,12 @@ The program developed in this assignment is based on PaddleOCR. It automatically
 **ocr.py**: Contains functionalities for preprocessing images, extracting text from a single image, and storing the extracted text in a local txt file.
 **pdf_OCR.py**: Allows users to extract text from PDF files.
 
-**Text Recognition Result of a Single Image**
+## Text Recognition Result of a Single Image
+
 ![Text Recognition Result of a Single Image](test.jpg)
 
-**Text Recognition Result of a PDF File**
+## Text Recognition Result of a PDF File
+
 ![Text Recognition Result of a PDF File](result_page_1.jpg)
 
 Both scripts perform exceptionally well.
