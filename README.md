@@ -18,4 +18,4 @@ ocr.py: Contains functionalities for preprocessing images, extracting text from 
 pdf_OCR.py: Allows users to extract text from PDF files.
 Both scripts perform exceptionally well.
 
-![Text Recognition Result of Single Image](片地址)
+![Text Recognition Result of Single Image](test.jpg)
